@@ -1,0 +1,17 @@
+Ejercicios Unidad 1
+
+Vamos a corroborar que tenemos todo correctamente instalado.
+
+Crearemos algunos proyectos. Podés ponerlos en la misma solución o en soluciones separadas. Si hay dudas, repasate el video 
+del primer programa y paseo en VS Community. 
+
+1. Crear un proyecto de consola .Net Framework y ejecutar el "Hola Mundo".
+
+2. Crear un proyecto de WinForm con .Net Framework y ejecutar nuestra primera ventana gráfica.
+
+Podés repasar lo visto en nivel 1 o ponerte a todo si no lo cursaste realizando algunos ejercicios en consola con el lenguaje.
+Cualquier duda o consulta no dejes de repasar lo necesario. También podés consultar en el foro de dudas.
+
+No te olvides de la importancia de la práctica, aunque parezca demasiado sencillo lo que se pide.
+
+Saludos!
