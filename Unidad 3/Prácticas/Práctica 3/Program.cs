@@ -10,7 +10,7 @@ namespace mouse
     {
         static void Main(string[] args)
         {
-            //PRACTICA 2 TEMATICA: PROGRAMA OBJETO MOUSE
+            //PRACTICA 3 TEMATICA: PROGRAMA OBJETO MOUSE
             //
             //DESCRIPCION PROYECTO:
             //PROGRAMA QUE SOLICITA NOMBRE AL USUARIO, PERMITE SELECCIONAR ENTRE 
