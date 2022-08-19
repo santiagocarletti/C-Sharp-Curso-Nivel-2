@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace MiPrimerAplicacion
 {
-    //TEMATICA EJERCICIO 1: CONTROL BUTTON
+    //TEMATICA EJERCICIO 1: FORM
     //
     //ENUNCIADO:
     //1. Creamos un Proyecto nuevo con el nombre MiPrimerAplicacion.
