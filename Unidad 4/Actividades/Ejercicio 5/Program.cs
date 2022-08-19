@@ -9,8 +9,8 @@ namespace Practica5AppWin2
     //TEMATICA EJERCICIO 5: APLICACIÓN WINDOWS 2
     //
     //ENUNCIADO:
-    //Generar un Formulario con los controles y diseño que se muestran en la siguiente
-    //imagen:
+    //Generar un Formulario con los controles y diseño que se muestran en la imagen del PDF 
+    //"PDF Aplicaciones Windows 1" adjunto en este repositorio.
     //    Al presionar el botón aceptar se debe validar que los text Apellido, Nombre, Edad y
     //    Dirección tengan datos, en caso de estar vacíos marcarlos de color rojo.
     //    Si pasa la validación los datos se deben escribir en el text de resultado (TextBox
