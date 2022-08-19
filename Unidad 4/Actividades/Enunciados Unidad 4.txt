@@ -1,0 +1,171 @@
+ENUNCIADO EJERCICIO 1
+Temática: Form
+
+1. Creamos un Proyecto nuevo con el nombre MiPrimerAplicacion. 
+2. Analizamos los archivos que nos creo el Proyecto. 
+3. Cambiamos el nombre del Form1, con la propiedad Name. 
+4. Cambiamos el titulo del Formulario, con la propiedad Text.
+5. Cambiamos el color de fondo del Formulario, con la propiedad BackColor.
+6. Cambiamos la posición del Formulario, con la propiedad StartPosition.
+7. Cambiamos la vista inicial del Formulario (Normal, Minimizado o Maximizado), con 
+la propiedad WindowState.
+8. Manejar el evento Load del Formulario. 
+1. DobleClick sobre el Formulario carga el método del evento Load por defecto. 
+private void Form1_Load(object sender, EventArgs e) 
+{ 
+} 
+2. Mostramos un Mensaje con MessageBox.Show.
+private void Form1_Load(object sender, EventArgs e) 
+{ 
+MessageBox.Show("Bienvenidos a C#"); 
+} 
+9. Manejar el evento FormClosed del Formulario. 
+1. Mostramos un Mensaje con MessageBox.Show.
+private void Form1_FormClosed(object sender, FormClosedEventArgs e) 
+ { 
+MessageBox.Show("Chau Chau ..."); 
+ } 
+10.No mostrar el botón de minimizar .del Formulario. 
+11.No mostrar el botón de maximizar del Formulario. 
+12.Modificar el valor de la propiedad Opacity.
+
+
+
+ENUNCIADO EJERCICIO 2
+Temática: Control button
+
+1. Agregar un Control Button al Formulario. 
+2. Analizamos el archivo Form1.Designer.cs . 
+3. Cambiamos el nombre del Control Button, con la propiedad Name. 
+4. Cambiamos la etiquete del Control Button, con la propiedad Text. (Run) 
+5. Cambiamos el color del Control Button, con la propiedad BackColor. (Run) 
+6. Cambiamos el estilo del Control Button, con la propiedad FlatStyle. (Run) 
+7. Coloco un icono al Control Button, con la propiedad Image. 
+8. Deshabilitar el Control Button, con la propiedad Enabled. 
+9. Manejar el evento Click del Control Button. 
+DobleClick sobre el Control Button carga el método del evento Click por defecto. 
+private void btnBoton_Click(object sender, EventArgs e) 
+{ 
+} 
+Mostramos un Mensaje con MessageBox.Show. (Run) 
+private void btnBoton_Click(object sender, EventArgs e) 
+{ 
+MessageBox.Show("Se disparo el evento Click", "Atención"); 
+} 
+10.Al dispararse el evento Click, se cambie el color del Formulario. 
+private void btnBoton_Click(object sender, EventArgs e) 
+{ 
+ //MessageBox.Show("Se disparo el evento Click", "Atención"); 
+ this.BackColor = Color.Blue; 
+} 
+11.Manejar el evento Click .del Formulario. Determinar que botón del Mouse se pulso. 
+private void Form1_Click(object sender, EventArgs e) 
+{ 
+MouseEventArgs click = (MouseEventArgs)e; 
+if (click.Button == MouseButtons.Left) 
+MessageBox.Show("Presiono el botón Izquierdo", "Atención"); 
+else if (click.Button == MouseButtons.Right) 
+MessageBox.Show("Presiono el Botón Derecho", "Atención"); else
+if (click.Button == MouseButtons.Middle) 
+MessageBox.Show("Presiono el botón del Medio", "Atención"); 
+}
+
+
+
+ENUNCIADO EJERCICIO 3
+Temática: Control Label y Linklabel
+
+1. Agregar un Label al Formulario. 
+2. Analizamos el archivo Form1.Designer.cs . 
+3. Cambiamos el nombre del Label, con la propiedad Name. 
+4. Cambiamos el Texto del Label con la propiedad Text. 
+5. Desplegamos el Cuadro de Dialogo de la propiedad Font y cambiamos Tipo Letra, 
+Tamaño y estilo. 
+6. Cambiamos el color del Texto, desplegando la paleta de colores personalizados de 
+la propiedad ForeColor. 
+7. Aplicamos un borde 3D con la propiedad BorderStyle. 
+8. Manejar el evento MouseMove del Control Label. En la ventana de eventos elijo 
+MouseMove. 
+private void lblEtiqueta_MouseMove(object sender, MouseEventArgs e) 
+{ 
+} 
+9. Cambiamos el color de la propiedad BackColor.
+private void lblEtiqueta_MouseMove(object sender, MouseEventArgs e) 
+{
+ lblEtiqueta.BackColor = Color.Cyan; 
+} 
+10.Al dispararse el evento MouseLeave, se restablezca el color de fondo de la etiqueta. 
+private void lblEtiqueta_MouseLeave(object sender, EventArgs e) 
+{ 
+ lblEtiqueta.BackColor = System.Drawing.SystemColors.Control; 
+} 
+11.Cambiar el estilo del cursor al dispararse los eventos MouseMove y MouseLeave. 
+private void lblEtiqueta_MouseMove(object sender, MouseEventArgs e) 
+{ 
+lblEtiqueta.BackColor = Color.Cyan; 
+lblEtiqueta.Cursor = Cursors.Hand; 
+} 
+private void lblEtiqueta_MouseLeave(object sender, EventArgs e) 
+{ 
+lblEtiqueta.BackColor = System.Drawing.SystemColors.Control; 
+lblEtiqueta.Cursor = Cursors.Arrow; 
+}
+
+
+
+ENUNCIADO EJERCICIO 4
+Temática: Control Textbox
+ 
+1. Agregar un Control TextBox al Formulario. 
+2. Analizamos el archivo Form1.Designer.cs . 
+3. Cambiamos el nombre del Control TextBox, con la propiedad Name. 
+4. Cambiamos la cantidad de Caracteres que acepta el Control TextBox, con la 
+propiedad MaxLength.
+5. Cambiamos la propiedad CharacterCasing del Control TextBox, para que cambie a 
+mayúsculas los caracteres que se ingresan.
+6. En el evento Click del botón creado anteriormente, cancelamos las líneas de código 
+anteriores y colocamos el código para cambiar el color de fondo del TextBox
+(Propiedad BackColor) si el TextBox se encuentra vació.
+private void btnBoton_Click(object sender, EventArgs e) 
+{ 
+ //MessageBox.Show("Se disparo el evento Click", "Atención");
+ //this.BackColor = Color.Blue; 
+ if (txtApellido.Text == "") 
+ txtApellido.BackColor = Color.Red; 
+ else 
+ txtApellido.BackColor = System.Drawing.SystemColors.Control; 
+} 
+7. Manejar el evento KeyPress, para ingresar solo Números 
+private void txtApellido_KeyPress(object sender, KeyPressEventArgs e) 
+{ 
+if ((e.KeyChar < 48 || e.KeyChar > 59) && e.KeyChar != 8) 
+ e.Handled = true; 
+} 
+8. Agregar otro Control TextBox, cambiar la propiedad Name. 
+9. Colocar en True la propiedad Multiline del nuevo Control TextBox. (Run) 
+10.Cambiar la propiedad ScrollBars del nuevo Control TextBox. (Run) 
+11.Manejar el evento Leave del nuevo Control TextBox. Para mostrar cuantos 
+caracteres se ingresaron una vez que el control pierde el foco. 
+ 
+private void txtNuevo_Leave(object sender, EventArgs e) 
+{ 
+ MessageBox.Show("Tiene "+ txtNuevo.Text.Length +" Caracteres"); 
+}
+
+
+
+ENUNCIADO EJERCICIO 5
+Temática: Aplicación Windows 2
+
+Generar un Formulario con los controles y diseño que se muestran en la siguiente 
+imagen: 
+Al presionar el botón aceptar se debe validar que los text Apellido, Nombre, Edad y 
+Dirección tengan datos, en caso de estar vacíos marcarlos de color rojo. 
+Si pasa la validación los datos se deben escribir en el text de resultado (TextBox 
+multilínea) con el siguiente formato: 
+Apellido y Nombre: XXXXXXXXXXXXXXX 
+Edad: XXX 
+Dirección: XXXXXXXXXXXXXXXXXXXXX 
+En el campo Edad solo debe aceptar Números. 
+En todos los campos limitar la cantidad de caracteres y pasarlos a mayúsculas. 
+Al presionar el botón Cancelar se debe cerrar la aplicación.
