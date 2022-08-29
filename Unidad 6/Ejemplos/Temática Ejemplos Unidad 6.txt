@@ -1,0 +1,9 @@
+Temática Ejemplo 1: Manejo de excepciones
+
+Temática Ejemplo 2: Finally y throw en excepciones
+
+Temática Ejemplo 3: Primera lectura a DB
+
+Temática Ejemplo 4: PictureBox - Mostrar imagen desde DB
+
+Temática Ejemplo 5: Leer datos relacionados en DB

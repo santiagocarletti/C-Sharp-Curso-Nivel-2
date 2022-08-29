@@ -1,0 +1,5 @@
+Práctica 1 Temática: Primera lectura a DB
+
+Práctica 2 Temática: PictureBox - Mostrar imagen desde DB
+
+Práctica 3 Temática: Leer datos relacionados en DB

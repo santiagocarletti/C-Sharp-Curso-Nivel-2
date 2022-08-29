@@ -1,0 +1,24 @@
+
+ENUNCIADO ACTIVIDAD UNIDAD 6:
+
+Hora de poner manos a la obra.
+
+A partir de la DB que te di en la unidad anterior, la idea es que crees tu propio proyecto 
+.Net Framework en el que de a poco vayas aplicando lo que estamos viendo en esta unidad.
+
+No hay más consigna que esa, y unidad tras unidad, las novedades que vayamos viendo, 
+deberás ir aplicándolas a tu proyecto.
+
+A meterle. Cualquier duda en el camino, ya sabés!
+
+Saludos.
+
+
+EJERCICIO 1
+Temática: Primera lectura a DB
+
+EJERCICIO 2
+Temática: PictureBox - Mostrar imagen desde DB
+
+EJERCICIO 3
+Temática: Leer datos relacionados en DB
