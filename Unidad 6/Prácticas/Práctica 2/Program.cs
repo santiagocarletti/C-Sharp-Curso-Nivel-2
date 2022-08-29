@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace _6._6DiscosPract1
 {
-    //TEMATICA PRACTICA 3: PICTURE BOX - MOSTRAR IMAGEN DESDE DB
+    //TEMATICA PRACTICA 2: PICTURE BOX - MOSTRAR IMAGEN DESDE DB
     internal static class Program
     {
         /// <summary>
