@@ -1,0 +1,15 @@
+Temática Práctica 1: Arquitectura en capas
+
+Temática Práctica 2: Clase acceso a datos - Centralizar conexión
+
+Temática Práctica 3: Agregar Disco a DB - Insert simple
+
+Temática Práctica 4: Agregar desplegables de Estilo y TipoEdicion - ComboBox
+
+Temática Práctica 5: Insert Estilo y TipoEdicion - Parámetros del comando
+
+Temática Práctica 6: Validar lectura NULL de DB
+
+Temática Práctica 7: DataGridView: propiedades varias - Annotations
+
+Temática Práctica 8: Agregar imagen al Alta - PictureBox y evento Leave

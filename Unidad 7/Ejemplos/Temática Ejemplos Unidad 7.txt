@@ -1,0 +1,15 @@
+Temática Ejemplo 1: Arquitectura en capas
+
+Temática Ejemplo 2: Clase acceso a datos - Centralizar conexión
+
+Temática Ejemplo 3: Agregar Pokemon a DB - Insert simple
+
+Temática Ejemplo 4: Agregar desplegables de Tipo y Debilidad - ComboBox
+
+Temática Ejemplo 5: Insert Tipo y Debilidad - Parámetros del comando
+
+Temática Ejemplo 6: Validar lectura NULL de DB
+
+Temática Ejemplo 7: DataGridView: propiedades varias - Annotations
+
+Temática Ejemplo 8: Agregar imagen al Alta - PictureBox y evento Leave
