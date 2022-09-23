@@ -1,0 +1,13 @@
+Temática Práctica 1: Modificar Disco
+
+Temática Práctica 2: Eliminación física contra DB
+
+Temática Práctica 4: Filtro rápido - Análisis error SelectedIndexChanged
+
+Temática Práctica 5: Filtro rápido mejorado (Sin botón)
+
+Temática Práctica 6: Filtro avanzado contra DB
+
+Temática Práctica 7: Levantar y guardar imagen local
+
+Temática Práctica 8: Validaciones - Requeridos y solo números - MessageBox

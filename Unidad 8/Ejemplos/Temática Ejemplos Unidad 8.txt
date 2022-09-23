@@ -1,0 +1,15 @@
+Temática Ejemplo 1: Modificar Pokemon
+
+Temática Ejemplo 2: Eliminación física contra DB
+
+Temática Ejemplo 3: Eliminación lógica contra DB
+
+Temática Ejemplo 4: Filtro rápido - Análisis error SelectedIndexChanged
+
+Temática Ejemplo 5: Filtro rápido mejorado (Sin botón)
+
+Temática Ejemplo 6: Filtro avanzado contra DB
+
+Temática Ejemplo 7: Levantar y guardar imagen local
+
+Temática Ejemplo 8: Validaciones - Requeridos y solo números - MessageBox
